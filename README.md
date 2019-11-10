@@ -1,8 +1,10 @@
-# This project is abandoned.
+# CS:GO Sticker Signature Generator
 
-[Access the generator here](http://tryhardhusky.github.io/csgo-sticker-signature-generator/)  
- 
- Account moved: https://github.com/TryHardHusky/
- 
-![1](http://i.imgur.com/tauslP6.gif)
- 
+An application for generate your custom Major Stickers from your favorite teams online!
+
+This is a fan contributing action. The original owner is [@DrKain](https://github.com/DrKain/csgo-sticker-signature-generator).
+
+# Contributors
+
+| [<img src="https://avatars0.githubusercontent.com/u/5300315?s=200&v=4"><br><sub>@DrKain</sub>](https://github.com/DrKain) | [<img src="https://avatars0.githubusercontent.com/u/47110995?s=200&v=4"><br><sub>@guilherssousa</sub>](https://github.com/guilherssousa) | 
+|:-:|:-:|
