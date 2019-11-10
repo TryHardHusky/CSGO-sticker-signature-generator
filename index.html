@@ -86,31 +86,6 @@
                        title="Position Up/Down"/>
             </div>
 
-
-            <div class="control-item">
-                <label for="labelSize">Size</label>
-                <input type="range" id="labelSize" min="10" max="80" value="45" step="0.2" title="Label Size">
-            </div>
-
-            <div class="control-item">
-                <label for="labelRotation">Rotation</label>
-                <input type="range" id="labelRotation" min="-180" max="180" value="0" step="1" title="Label Rotation"/>
-            </div>
-
-            <div class="control-item">
-                <label for="color">Color</label>
-                <input class="jscolor  {onFineChange:'window.colorChange(this)'}" id="color" value="ffffff"/>
-            </div>
-
-            <div class="control-item full">
-                <select title="Text Style" id="textStyle">
-                    <option value="false">Text Style</option>
-                    <option value="stroke1">Stroke 1px</option>
-                    <option value="stroke2">Stroke 2px</option>
-                    <option value="shadow">Shadow</option>
-                </select>
-            </div>
-
         </div>
     </div>
 
@@ -144,6 +119,52 @@
         <h2>Nickname</h2>
 
         <div class="canvas-controls">
+
+            <div class="control-item">
+                <label for="label">Nickname</label>
+                <input title="label" id="label" type="text" value="Rambo"/>
+            </div>
+
+            <div class="control-item">
+                <select title="Font" id="font"></select>
+            </div>
+
+            <div class="control-item">
+                <label for="labelPosUpDown">Pos. Up/Down</label>
+                <input type="range" id="labelPosUpDown" min="0" max="1.22" value="0.61" step="0.01"
+                       title="Position Up/Down"/>
+            </div>
+
+            <div class="control-item">
+                <label for="labelPosLeftRight">Pos. Left/Right</label>
+                <input type="range" id="labelPosLeftRight" min="0" max="1" value="0.5" step="0.01"
+                       title="Position Up/Down"/>
+            </div>
+
+
+            <div class="control-item">
+                <label for="labelSize">Size</label>
+                <input type="range" id="labelSize" min="10" max="80" value="45" step="0.2" title="Label Size">
+            </div>
+
+            <div class="control-item">
+                <label for="labelRotation">Rotation</label>
+                <input type="range" id="labelRotation" min="-180" max="180" value="0" step="1" title="Label Rotation"/>
+            </div>
+
+            <div class="control-item">
+                <label for="color">Color</label>
+                <input class="jscolor  {onFineChange:'window.colorChange(this)'}" id="color" value="ffffff"/>
+            </div>
+
+            <div class="control-item full">
+                <select title="Text Style" id="textStyle">
+                    <option value="false">Text Style</option>
+                    <option value="stroke1">Stroke 1px</option>
+                    <option value="stroke2">Stroke 2px</option>
+                    <option value="shadow">Shadow</option>
+                </select>
+            </div>
 
         </div>
 
