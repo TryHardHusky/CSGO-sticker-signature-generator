@@ -1,0 +1,32 @@
+#event {
+    padding: 0;
+}
+
+.canvas-controller-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: bold; */
+    font-size: 28px;
+    background-color: #f6f8fa;
+}
+
+.c-container {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin: 4px;
+    overflow: hidden;
+}
+
+a:hover, a:visited, a:link {
+    text-decoration: none;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.c-f {
+    margin-bottom: 5px;
+}
